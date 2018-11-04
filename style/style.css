@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
 form a {
     margin-left: 5px;
+}
+
+body {
+    background: url('./assets/img/bg.jpg');
+    background-size: cover;
+}
+
+body>* {
+    font-family: 'Poor Story', cursive;
+    font-size: 2em;
+}
+
+.container {
+    margin-top: 1rem;
+    background: url('./assets/img/bg.png');
+    background-size: 100px;
+    width: 60%;
+    box-shadow: 0 8px 6px -6px #333;
 }
