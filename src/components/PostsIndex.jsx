@@ -20,11 +20,10 @@ export class PostsIndex extends Component {
   }
 
   render() {
-    return (
-      <div className="p-5">
+    return <div className="p-5">
         <div className="row">
           <div className="col-md-6 col-xs-12">
-            <h1>Posts</h1>
+            <h1 className="float-left">Posts</h1>
           </div>
           <div className="col-md-6 col-xs-12">
             <Link className="btn btn-primary float-right mt-2" to="/posts/new">
@@ -35,8 +34,7 @@ export class PostsIndex extends Component {
         <div className="row">
           <ul className="list-group">{this.renderPosts()}</ul>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 function mapStateToProps(state) {
